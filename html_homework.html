@@ -10,31 +10,56 @@
 <body>
     
   <div class="container">
-    <nav class="navbar">
-      <ul>
-        <div class="dropdown">
-            <div class="topnav-right">
-
-                <button onclick="myFunction()" class="dropbtn">Plots</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <div class="topnav-right">
-                        <a href="#">Temperature Map</a>
-                        <a href="#">Humidity Map</a>
-                        <a href="#">Cloudy Map</a>
-                        <a href="#">Windy Map</a>
+    <nav class="navbar"> 
+        <div class="topnav-right">
+        </div>
+            <div class="dropdown">
+                <div class="topnav-right">
+                    <div>
+                        <button onclick="myFunction()" class="dropbtn">Plots</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <div class="topnav-right">
+                                <a onclick="//Tempurature.html" href="#">Temperature Map</a>
+                                <a href="#">Humidity Map</a>
+                                <a href="#">Cloudy Map</a>
+                                <a href="#">Windy Map</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="topnav-right">
+                </div>
+                    <div class="dropdown">
+                        <div class="topnav-right">
+                            <div>
+                                <button onclick="myFunction()" class="dropbtn">Data</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <div class="topnav-right">
+                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="topnav-right">
+                        </div>
+                            <div class="dropdown">
+                                <div class="topnav-right">
+                                    <div>
+                                        <button onclick="myFunction()" class="dropbtn">Comparison</button>
+                                        <div id="myDropdown" class="dropdown-content">
+                                            <div class="topnav-right">
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>             
         <li>
-                <a href="#">Home</a>
+                <a href="#">Weather Home</a>
              </li>
-        <li>
-            <a href="#">Comparison</a>
-        </li>
-        <li>
-            <a href="#">Table</a>
-        </li>
+
       </ul>
     </nav>
     <header class="header">
@@ -44,8 +69,11 @@
       <section class="posts">
         <article class="post">
           <h3>"What's goin on here?" You may ask.</h3>
-          <p>This webpage goes into a lil' detail of riveting weather scatter plots. Please use the naviagation
-              at the top and enjoy.
+          <p>This webpage goes into a lil' detail of riveting weather scatter plots that have
+              been created in past matplotlib code. The plots include tempurature, 
+              humidity, cloudiness, and wind speed data, as compared to 
+              latitude for each city within the dataset. Please use the naviagation
+              at the top and enjoy!
           </p>
         </article>
       </section>
